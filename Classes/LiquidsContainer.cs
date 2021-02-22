@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	class Liquids_Container
+	class LiquidsContainer
 	{
 	}
 }
