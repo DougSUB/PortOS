@@ -4,9 +4,7 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	public class Ship : FreightMover
+	public class LiquidsTrainCar : HeavyTrainCar
 	{
-		public int ID { get; set; }
-
 	}
 }

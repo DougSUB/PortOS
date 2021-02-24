@@ -4,7 +4,8 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	class TrainCar
+	public class TrainCar : Train
 	{
+		public int CarNumber { get; set; }
 	}
 }

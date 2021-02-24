@@ -4,7 +4,8 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	class RefrigeratedContainer
+	class RefrigeratedContainer : HeavyContainer
 	{
+		public int Temperature { get; set; }
 	}
 }

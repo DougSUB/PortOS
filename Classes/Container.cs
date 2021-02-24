@@ -11,8 +11,9 @@ namespace PortOS.Classes
 		public string Origin { get; set; }
 		public string Destination { get; set; }
 		public int Weight { get; set; }
+		public int ID { get; set; }
+		public bool ContainsExplosives { get; set; }
+		public bool ConstainsToxics { get; set; }
 
-
-		
 	}
 }

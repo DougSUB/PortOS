@@ -4,9 +4,8 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	public class Ship : FreightMover
+	interface IStackable
 	{
-		public int ID { get; set; }
-
+		bool Stackable { get; }
 	}
 }

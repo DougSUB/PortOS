@@ -4,7 +4,8 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	class HeavyContainer
+	public class HeavyContainer : Container , IStackable
 	{
+		public bool Stackable { get; }
 	}
 }
