@@ -4,9 +4,8 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	public class Ship : FreightMover
+	public class Stack
 	{
-		public int ID { get; set; }
-
+		public int Height { get; set; }
 	}
 }

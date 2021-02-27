@@ -4,7 +4,10 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	class Yard
+	public class Yard
 	{
+		public int HeavySlots { get; set; }
+		public int StandardSlots { get; set; }
+		public int MaxStackHeight { get; set; }
 	}
 }
