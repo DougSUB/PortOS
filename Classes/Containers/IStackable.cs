@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PortOS.Classes
 {
-	interface IStackable
+	public interface IStackable
 	{
 		bool Stackable { get; }
 	}

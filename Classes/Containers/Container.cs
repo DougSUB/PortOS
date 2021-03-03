@@ -25,5 +25,16 @@ namespace PortOS.Classes
 		public bool ContainsExplosives { get; set; }
 		public bool ContainsToxics { get; set; }
 
+		public bool ToxicExplosive()
+		{
+			if (ContainsExplosives == true || ContainsExplosives == true)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
 	}
 }
